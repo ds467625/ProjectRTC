@@ -5,7 +5,7 @@
   "description": "a webRTC live streaming server",
   "scripts": {
     "start": "node app.js",
-    "build": "webpack"
+    "build": "webpack",
     //"start": "npm start app.js",
     //"stop": "forever stopall"
   },
