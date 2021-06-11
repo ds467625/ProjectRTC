@@ -4,7 +4,7 @@
   "author": "Pierre Chabardes <pierre@chabardes.net>",
   "description": "a webRTC live streaming server",
   "scripts": {
-    "start": "node app.js",
+    "start": "node app.js"
   },
   "heroku-run-build-script": true,
   "repository": {
