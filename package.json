@@ -4,10 +4,14 @@
   "author": "Pierre Chabardes <pierre@chabardes.net>",
   "description": "a webRTC live streaming server",
   "scripts": {
-    "start": "npm start app.js",
-    "stop": "forever stopall"
+    "start": "node app.js",
+    "build": "webpack"
+    //"start": "npm start app.js",
+    //"stop": "forever stopall"
   },
+  "heroku-run-build-script": true,
   "repository": {
+    
     "type": "git",
     "url": "https://github.com/pchab/ProjectRTC.git"
   },
